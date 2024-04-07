@@ -82,6 +82,28 @@
         max-width: 70vw;
         max-height: 55vh;
       }
+
+      .table-container {
+        overflow-y: auto;
+
+        .sales-table-labels, .sale-row-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          border-bottom: thin solid #e4e4e4;
+
+          p {
+            flex: 1;
+          }
+        }
+
+        .sale-row-container {
+          p {
+            color: #858585;
+          }
+        }
+      }
     }
   }
 }
