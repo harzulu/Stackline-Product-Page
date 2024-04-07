@@ -1,5 +1,5 @@
 import React from 'react'
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'
 
 const ItemOverview = ({ data, loading, error }) => {
   if (loading || !data[0]) return(<div>Loading...</div>)
@@ -7,7 +7,7 @@ const ItemOverview = ({ data, loading, error }) => {
   if (error) return(<div>Error: {error}</div>)
 
   const { image, subtitle, tags, title } = data[0]
-  
+
   return(
     <div className="item-overview">
       <img className="product-image" src={image} alt={title} />

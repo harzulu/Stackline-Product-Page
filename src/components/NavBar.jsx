@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../stackline_logo.svg';
+import logo from '../stackline_logo.svg'
 
 const NavBar = () => {
   return(

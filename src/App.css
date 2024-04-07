@@ -19,6 +19,7 @@
   .page-container {
     padding: 70px 20px;
     display: flex;
+    justify-content: center;
 
     .item-overview, .chart-container, .table-container {
       background-color: #FFFFFF;
@@ -73,13 +74,12 @@
     }
 
     .product-data {
-      flex: 2;
       display: flex;
       flex-direction: column;
 
       .chart-container, .table-container {
         padding: 20px;
-        max-width: 70vw;
+        max-width: 60vw;
         max-height: 55vh;
       }
 
