@@ -15,7 +15,7 @@ export const fetchDataFailure = (error) => ({
 export const fetchData = () => {
   return (dispatch) => {
     dispatch(fetchDataRequest())
-    fetch('/stackline_frontend_assessment_data_2021.json')
+    fetch('./stackline_frontend_assessment_data_2021.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch data')
