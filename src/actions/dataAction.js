@@ -26,7 +26,6 @@ export const fetchData = () => {
         dispatch(fetchDataSuccess(data));
       })
       .catch(error => {
-        console.log(error)
         dispatch(fetchDataFailure(error.message));
       });
   };
