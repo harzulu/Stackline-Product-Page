@@ -32,6 +32,7 @@
 
     .item-overview {
       flex: 0 0 20%;
+      min-width: 20vw;
 
       .product-image {
         max-width: 200px;
@@ -76,6 +77,7 @@
     .product-data {
       display: flex;
       flex-direction: column;
+      min-width: 60vw;
 
       .chart-container, .table-container {
         padding: 20px;
